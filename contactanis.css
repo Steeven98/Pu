@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background: #0E1424;
+    height: 70px;
+}
+.ancho{
+    width: 80%;
+    height: 70px;
+    
+    margin: auto;
+}
+.logo{
+    width: 30%;
+    height: 70px;
+    
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.logo p a{
+    color: #fff;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: rale;
+}
+nav{
+    width: 70%;
+    height: 70px;
+    
+    float: left;
+    text-align: right;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+nav ul li{
+display: inline;
+}
+nav ul li a{
+font-size: 13px;
+text-decoration: none;
+color: #fff;
+text-transform: uppercase;
+padding-left: 15px;
+font-weight: bold;
+letter-spacing: 1px;
+font-family: rale;
+}
+nav ul li a:hover{
+color: rgb(85, 78, 78);
+}
+@font-face{
+    font-family: Rale;
+    src:url(fuentes/Raleway-Regular.ttf)
+}
+.slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+
+    animation: cambio 20s infinite;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+}
+@keyframes cambio{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+}
+*{
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 30px;
+}
+.row:after{
+  
+    display: table;
+    clear: both;
+}
+footer{
+    width: 100%;
+    background: #0E1424;
+    height: 115px;
+    color: #ffffff;
+}
